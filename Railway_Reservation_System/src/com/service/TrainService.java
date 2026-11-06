@@ -11,15 +11,15 @@ public class TrainService {
     public TrainService() {
         trains.add(new Train(101, "Vande Bharat",
                 "Visakhapatnam", "Vijayawada",
-                "06:00 AM", "10:00 AM", 100, 750.0));
+                "06:00 AM", "10:00 AM", 50, 750.0));
 
         trains.add(new Train(102, "Janmabhoomi Express",
                 "Visakhapatnam", "Vijayawada",
-                "07:00 AM", "12:00 PM", 150, 350.0));
+                "07:00 AM", "12:00 PM", 75, 350.0));
 
         trains.add(new Train(103, "Godavari Express",
                 "Vijayawada", "Rajahmundry",
-                "09:00 AM", "11:30 AM", 120, 250.0));
+                "09:00 AM", "11:30 AM", 80, 250.0));
     }
 
     public void displayAllTrains() {
